@@ -71,7 +71,9 @@ class Graph:
                 weight = self.vertices[v].getWeight(w)
                 edgesFromVertex.append((frm, to, weight))
 
-            edges.append(edgesFromVertex)
+            if len(edgesFromVertex) != 0:
+                edges.append(edgesFromVertex)
+
         return edges
 
 
@@ -95,5 +97,5 @@ if __name__ == '__main__':
     g.addEdge('f', 'c', 6)
 
     for edgeSet in g.getEdges():
-        print('edges from', edgeSet[0][0]+ ': ', end='')
+        print('edges from', edgeSet[0][0] + ': ', end='')
         print(edgeSet)
