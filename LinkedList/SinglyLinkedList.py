@@ -88,13 +88,13 @@ class SinglyLinkedList:
             current = current.get_next()
         print('End of list')
 
-
-linked_list = SinglyLinkedList()
-linked_list.insert_at_beg(3)
-linked_list.insert_at_beg(2)
-linked_list.insert_at_beg(1)
-linked_list.insert_at_end(4)
-linked_list.insert_at_end(5)
-linked_list.delete_from_beg()
-linked_list.delete_from_end()
-print("size: ", linked_list.size())
+if __name__ == '__main__':
+    linked_list = SinglyLinkedList()
+    linked_list.insert_at_beg(3)
+    linked_list.insert_at_beg(2)
+    linked_list.insert_at_beg(1)
+    linked_list.insert_at_end(4)
+    linked_list.insert_at_end(5)
+    linked_list.delete_from_beg()
+    linked_list.delete_from_end()
+    print("size: ", linked_list.size())
