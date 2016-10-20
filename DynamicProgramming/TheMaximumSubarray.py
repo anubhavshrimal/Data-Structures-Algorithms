@@ -1,3 +1,4 @@
+#HackerRank problem Algorithms DP
 
 
 def maxSubArray(a, size):
@@ -11,8 +12,6 @@ def maxSubArray(a, size):
     return maxSoFar
 
 
-
-
 testcases = int(input())
 
 for t in range(testcases):
@@ -23,4 +22,4 @@ for t in range(testcases):
         maximumSum = sum(tempList)
     else:
         maximumSum = max(arr)
-    print(maxSubArray(arr, len(arr)), maximumSum)
+    print(maxSubArray(arr, n), maximumSum)
