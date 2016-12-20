@@ -5,6 +5,7 @@
 * [Dynamic Programming](#dynamic-programming)
 * [Graph](#graph)
 * [Linked List](#linked-list)
+    * [Singly Linked List](#singly-linked-list)
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
 
@@ -35,17 +36,19 @@ Contains implementation of Graph data structure and some common questions and al
 
 Contains implementation of Linked List data structure and some common questions and algorithms related to it.
 
+##### Singly Linked List
+
 | 			Topic					|	Code File Name |
 |-----------------------------------|------------------|
-|	Find Middle Node of Singly LL			| MiddleNode.py|
-|	Find if Singly LL contains any cycle			| NullOrCycle.py|
-|	Find and remove cycle if any in a Singly LL			| RemoveCycle.py|
-|	Reverse sub list of K nodes each in a Singly LL  | ReverseKNodes.py|
-|	Reverse alternate sub list of K nodes each in a Singly LL			| Reverse\_Alt\_K_Nodes.py|
-|	Reverse a Singly LL			| ReverseSLL.py|
-|	Bring even valued nodes to the front in Singly LL			| SegregateEvenOdd.py|
-|	Implementation of Singly LL			| SinglyLinkedList.py|
-|Skip M nodes and then delete N nodes alternately in a singly  |SkipMDeleteN.py|
+|	Find Middle Node                | MiddleNode.py|
+|	Find if linked list contains any cycle			| NullOrCycle.py|
+|	Find and remove cycle if any    | RemoveCycle.py|
+|	Reverse sub list of K nodes each| ReverseKNodes.py|
+|	Reverse alternate sub list of K nodes each | Reverse\_Alt\_K_Nodes.py|
+|	Reverse a linked list			| ReverseSLL.py|
+|	Bring even valued nodes to the front | SegregateEvenOdd.py|
+|	Implementation of Singly Linked List | SinglyLinkedList.py|
+|Skip M nodes and then delete N nodes alternately |SkipMDeleteN.py|
 
 ------------------------------------------------------------------------------
 ### Tree
