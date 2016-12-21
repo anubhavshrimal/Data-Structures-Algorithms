@@ -52,7 +52,7 @@ Contains implementation of Linked List data structure and some common questions 
 
 Contains implementation of Tree data structure and some common questions and algorithms related to it.
 
-* Binary Search Tree
+##### Binary Search Tree
 
 | 			Topic					|	Code File Name |
 |-----------------------------------|------------------|
