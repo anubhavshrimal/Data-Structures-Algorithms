@@ -36,7 +36,7 @@ Contains implementation of Linked List data structure and some common questions 
 |	Reverse a Singly LL			| ReverseSLL.py|
 |	Bring even valued nodes to the front in Singly LL			| SegregateEvenOdd.py|
 |	Implementation of Singly LL			| SinglyLinkedList.py|
-|skip M nodes and then delete N nodes alternately in a singly  |SkipMDeleteN.py|
+|Skip M nodes and then delete N nodes alternately in a singly  |SkipMDeleteN.py|
 
 ------------------------------------------------------------------------------
 ### Tree
