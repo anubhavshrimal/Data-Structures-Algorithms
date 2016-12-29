@@ -23,6 +23,7 @@ class SinglyLinkedList:
         prev = None
         count = 0
 
+        # traverse k nodes ahead reversing the links or until current is not None
         while current is not None and count < k:
             next = current.next
             current.next = prev
@@ -30,9 +31,11 @@ class SinglyLinkedList:
             current = next
             count += 1
 
+        # recursive call to the function to reverse the remaining n-k nodes
         if next is not None:
             head.next = self.reverse_k_nodes(next, k)
 
+        # return the new header of the current sublist
         return prev
 
     # Function to Insert data at the beginning of the linked list
@@ -59,5 +62,7 @@ if __name__ == '__main__':
     linked_list.insert_at_beg(2)
     linked_list.insert_at_beg(1)
     linked_list.print_data()
+    # call the reverse k nodes function
     linked_list.head = linked_list.reverse_k_nodes(linked_list.head, 3)
+    # print the reversed list
     linked_list.print_data()
