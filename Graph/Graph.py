@@ -12,8 +12,11 @@ class Vertex:
     def getKey(self):
         return self.key
 
-    def isVisited(self):
+    def getVisited(self):
         return self.visited
+
+    def setVisited(self, val=True):
+        self.visited = val
 
     def addNeighbour(self, neighbour, weight=0):
         self.adjacent[neighbour] = weight
