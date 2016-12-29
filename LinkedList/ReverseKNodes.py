@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+# Python program to reverse a linked list in group of given size k
 
 
 # Node class
