@@ -1,4 +1,4 @@
-# DataStructuresAlgorithmsInPython
+# Data Structures and Algorithms in Python 3
 
 ## Content:
 
@@ -11,6 +11,7 @@ Contains some popular questions based on *dynamic programming approach*.
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
 
+------------------------------------------------------------------------------
 ### Graph
 
 Contains implementation of Graph data structure and some common questions and algorithms related to it.
@@ -20,7 +21,7 @@ Contains implementation of Graph data structure and some common questions and al
 |	Graph implementation			| Graph.py|
 
 
-
+------------------------------------------------------------------------------
 ### Linked List
 
 Contains implementation of Linked List data structure and some common questions and algorithms related to it.
@@ -30,7 +31,21 @@ Contains implementation of Linked List data structure and some common questions 
 |	Find Middle Node of Singly LL			| MiddleNode.py|
 |	Find if Singly LL contains any cycle			| NullOrCycle.py|
 |	Find and remove cycle if any in a Singly LL			| RemoveCycle.py|
-|	Reverse sub list of K nodes each in a Singly LL			| ReverseKNodes.py|
+|	Reverse sub list of K nodes each in a Singly LL  | ReverseKNodes.py|
 |	Reverse alternate sub list of K nodes each in a Singly LL			| Reverse\_Alt\_K_Nodes.py|
 |	Bring even valued nodes to the front in Singly LL			| SegregateEvenOdd.py|
 |	Implementation of Singly LL			| SinglyLinkedList.py|
+
+------------------------------------------------------------------------------
+### Tree
+
+Contains implementation of Tree data structure and some common questions and algorithms related to it.
+
+* Binary Search Tree
+
+| 			Topic					|	Code File Name |
+|-----------------------------------|------------------|
+|	Binary Search Tree implementation			| bst.py|
+
+
+------------------------------------------------------------------------------
