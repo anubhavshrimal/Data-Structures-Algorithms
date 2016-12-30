@@ -17,9 +17,9 @@ class SinglyLinkedList:
         self.head = None
 
     # Function to reverse K nodes of linked list
-    def find_mid(self, head):
-        fast = head
-        slow = head
+    def find_mid(self):
+        fast = self.head
+        slow = self.head
 
         # Make fast run twice the speed of slow
         # when fast is at the last of the list
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     linked_list.insert_at_beg(1)
     linked_list.print_data()
     # call the find_mid function
-    mid = linked_list.find_mid(linked_list.head)
+    mid = linked_list.find_mid()
     # print the middle node if not None
     if mid is not None:
         print(mid.data)
