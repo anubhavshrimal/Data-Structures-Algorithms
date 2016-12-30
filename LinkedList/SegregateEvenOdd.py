@@ -17,19 +17,19 @@ class SinglyLinkedList:
         self.head = None
 
     # Function to segregate even odd value nodes of linked list
-    def segregateEvenOdd(self, head):
+    def segregateEvenOdd(self):
         current = None
-        prev = head
+        prev = self.head
         pivot = None
 
         # If empty list or single element in the list
-        if head is None or head.next is None:
-            return head
+        if self.head is None or self.head.next is None:
+            return self.head
 
         # if the first node is even
         # initialise pivot as head
         if prev.data % 2 == 0:
-            pivot = head
+            pivot = self.head
             current = prev.next
         # else find the first node in the list that is even
         # make that node the head of the list
@@ -39,8 +39,8 @@ class SinglyLinkedList:
                 if prev.next.data % 2 == 0:
                     pivot = prev.next
                     prev.next = pivot.next
-                    pivot.next = head
-                    head = pivot
+                    pivot.next = self.head
+                    self.head = pivot
                     current = prev.next
                     break
                 prev = prev.next
@@ -71,7 +71,7 @@ class SinglyLinkedList:
                 current = current.next
 
         # return the updated linked list head
-        return head
+        return self.head
 
     # Function to Insert data at the beginning of the linked list
     def insert_at_beg(self, data):
@@ -98,6 +98,6 @@ if __name__ == '__main__':
     linked_list.insert_at_beg(2)
     print('Before segregation:', end=' ')
     linked_list.print_data()
-    linked_list.head = linked_list.segregateEvenOdd(linked_list.head)
+    linked_list.head = linked_list.segregateEvenOdd()
     print('After segregation:', end=' ')
     linked_list.print_data()
