@@ -7,6 +7,7 @@
 Contains some popular questions based on *dynamic programming approach*. 
 
 | 			Topic					|	Code File Name |
+|-----------------------------------|------------------|
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
 
@@ -15,6 +16,7 @@ Contains some popular questions based on *dynamic programming approach*.
 Contains implementation of Graph data structure and some common questions and algorithms related to it.
 
 | 			Topic					|	Code File Name |
+|-----------------------------------|------------------|
 |	Graph implementation			| Graph.py|
 
 
@@ -24,6 +26,7 @@ Contains implementation of Graph data structure and some common questions and al
 Contains implementation of Linked List data structure and some common questions and algorithms related to it.
 
 | 			Topic					|	Code File Name |
+|-----------------------------------|------------------|
 |	Find Middle Node of Singly LL			| MiddleNode.py|
 |	Find if Singly LL contains any cycle			| NullOrCycle.py|
 |	Find and remove cycle if any in a Singly LL			| RemoveCycle.py|
