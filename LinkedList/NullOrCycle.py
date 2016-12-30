@@ -16,15 +16,16 @@ class SinglyLinkedList:
     def __init__(self):
         self.head = None
 
-    # Function to reverse K nodes of linked list
+    # Function to find cycle in linked list
     def find_cycle(self, head):
         fast = head.next
         slow = head
 
         # Make fast run twice the speed of slow
-        # when fast is at the last of the list
-        # slow will be at the mid node
+        # if fast coincide with slow
+        # then there is a loop or cycle
         while fast is not None:
+            # return True if cycle
             if fast is slow:
                 return True
             fast = fast.next
@@ -32,6 +33,7 @@ class SinglyLinkedList:
                 fast = fast.next
                 slow = slow.next
 
+        # return False if no cycle
         return False
 
     # Function to Insert data at the beginning of the linked list
