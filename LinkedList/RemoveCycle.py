@@ -17,9 +17,9 @@ class SinglyLinkedList:
         self.head = None
 
     # Function to find cycle in linked list
-    def find_cycle_remove(self, head):
-        fast = head.next
-        slow = head
+    def find_cycle_remove(self):
+        fast = self.head.next
+        slow = self.head
 
         # Make fast run twice the speed of slow
         # if fast coincide with slow
@@ -34,7 +34,7 @@ class SinglyLinkedList:
                 slow = slow.next
 
         if fast is slow:
-            slow = head
+            slow = self.head
             while fast.next is not slow:
                 fast = fast.next
                 slow = slow.next
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     temp.next = head.next.next.next
 
     # call the find_cycle function
-    result = linked_list.find_cycle_remove(linked_list.head)
+    result = linked_list.find_cycle_remove()
 
     # print if cycle or not
     print('Yes! there was a cycle') if result else print('No! there was no cycle')
