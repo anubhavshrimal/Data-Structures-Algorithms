@@ -33,6 +33,7 @@ Contains implementation of Linked List data structure and some common questions 
 |	Find and remove cycle if any in a Singly LL			| RemoveCycle.py|
 |	Reverse sub list of K nodes each in a Singly LL  | ReverseKNodes.py|
 |	Reverse alternate sub list of K nodes each in a Singly LL			| Reverse\_Alt\_K_Nodes.py|
+|	Reverse a Singly LL			| ReverseSLL.py|
 |	Bring even valued nodes to the front in Singly LL			| SegregateEvenOdd.py|
 |	Implementation of Singly LL			| SinglyLinkedList.py|
 
