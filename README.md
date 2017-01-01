@@ -40,6 +40,7 @@ Contains implementation of Linked List data structure and some common questions 
 
 | 			Topic					|	Code File Name |
 |-----------------------------------|------------------|
+|Merge a linked list into another linked list at alternate positions|MergeAlt.py|
 |	Find Middle Node                | MiddleNode.py|
 |	Find if linked list contains any cycle			| NullOrCycle.py|
 |	Find and remove cycle if any    | RemoveCycle.py|
