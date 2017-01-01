@@ -16,7 +16,7 @@ class SinglyLinkedList:
     def __init__(self):
         self.head = None
 
-    # Function to reverse K nodes of linked list
+    # Function to find middle node of a linked list
     def find_mid(self):
         fast = self.head
         slow = self.head
