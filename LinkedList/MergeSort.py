@@ -13,8 +13,8 @@ class Node:
 class SinglyLinkedList:
 
     # Constructor to initialise head
-    def __init__(self):
-        self.head = None
+    def __init__(self, head=None):
+        self.head = head
 
     # Function to Insert data at the beginning of the linked list
     def insert_at_beg(self, data):
@@ -40,6 +40,7 @@ def split(head):
 
     fast = slow.next
 
+    # Reach to the middle of the linked list
     while fast is not None:
         fast = fast.next
         if fast is not None:
@@ -47,24 +48,39 @@ def split(head):
             slow = slow.next
 
     fast = slow.next
+    # break the linked list in half
     slow.next = None
 
+    # return the 2 linked lists formed
     return head, fast
 
 
-# Function to merge linked lists
+# Function to merge linked lists in sorted order
 def merge(a, b):
-    if a is None:
-        return b
-    if b is None:
-        return a
+    # Make a dummy node
+    dummy = Node()
+    # dummy node next will be the head of our merged list
+    dummy.next = None
 
-    if a.data < b.data:
-        a.next = merge(a.next, b)
-        return a
-    else:
-        b.next = merge(b.next, a)
-        return b
+    temp = SinglyLinkedList(dummy)
+    tail = temp.head
+
+    while True:
+        if a is None:
+            tail.next = b
+            break
+        elif b is None:
+            tail.next = a
+            break
+        elif a.data <= b.data:
+            tail.next = a
+            a = a.next
+        else:
+            tail.next = b
+            b = b.next
+        tail = tail.next
+
+    return temp.head.next
 
 
 # Function Merge Sort
@@ -81,6 +97,7 @@ def merge_sort(head):
 
     return head
 
+
 if __name__ == '__main__':
     linked_list = SinglyLinkedList()
     linked_list.insert_at_beg(9)
@@ -93,7 +110,6 @@ if __name__ == '__main__':
     linked_list.insert_at_beg(7)
     linked_list.insert_at_beg(6)
 
-
     # before sorting
     print('before sorting')
     linked_list.print_data()
@@ -101,6 +117,6 @@ if __name__ == '__main__':
     # call merge_sort function
     linked_list.head = merge_sort(linked_list.head)
 
-    #after sorting
+    # after sorting
     print('after sorting')
     linked_list.print_data()
