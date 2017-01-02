@@ -1,5 +1,7 @@
 # Data Structures and Algorithms in Python 3
 
+My implementation of some popular data structures and algorithms and interview questions relating to them in Python 3
+
 ## Index:
 
 * [Dynamic Programming](#dynamic-programming)
