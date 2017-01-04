@@ -42,6 +42,7 @@ Contains implementation of Linked List data structure and some common questions 
 
 | 			Topic					|	Code File Name |
 |-----------------------------------|------------------|
+|Given a linked list of line segments, remove middle points if any|LineRemoveMiddlePoints.py|
 |Merge a linked list into another linked list at alternate positions|MergeAlt.py|
 |	Perform Merge Sort              | MergeSort.py|
 |	Find Middle Node                | MiddleNode.py|
