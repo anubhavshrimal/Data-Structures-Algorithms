@@ -16,7 +16,7 @@ class SinglyLinkedList:
     def __init__(self):
         self.head = None
 
-    # Function to reverse K nodes of linked list
+    # Function to merge 2 linked lists at alternate positions
     def merge(self, l2):
         h1 = self.head
         h2 = l2.head
