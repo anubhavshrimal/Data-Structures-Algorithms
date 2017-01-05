@@ -18,7 +18,7 @@ My implementation of some popular data structures and algorithms and interview q
 
 Contains some popular questions based on *dynamic programming approach*. 
 
-| 			Topic					|	Code File Name |
+| 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
@@ -28,7 +28,7 @@ Contains some popular questions based on *dynamic programming approach*.
 
 Contains implementation of Graph data structure and some common questions and algorithms related to it.
 
-| 			Topic					|	Code File Name |
+| 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
 |	Graph implementation			| Graph.py|
 
@@ -40,7 +40,7 @@ Contains implementation of Linked List data structure and some common questions 
 
 ##### Singly Linked List
 
-| 			Topic					|	Code File Name |
+| 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |Given a linked list of line segments, remove middle points if any|LineRemoveMiddlePoints.py|
 |Construct a Maximum Sum Linked List out of two Sorted Linked Lists having some Common nodes.|MaxSumLinkedList.py|
@@ -63,7 +63,7 @@ Contains implementation of Tree data structure and some common questions and alg
 
 ##### Binary Search Tree
 
-| 			Topic					|	Code File Name |
+| 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	Binary Search Tree implementation			| bst.py|
 
