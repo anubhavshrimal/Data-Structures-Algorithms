@@ -48,6 +48,7 @@ Contains implementation of Linked List data structure and some common questions 
 |Merge a linked list into another linked list at alternate positions|MergeAlt.py|
 |	Perform Merge Sort              | MergeSort.py|
 |	Find Middle Node                | MiddleNode.py|
+|Point to next higher value node in a linked list with an arbitrary pointer|NextHigerValueNode.py|
 |	Find if linked list contains any cycle			| NullOrCycle.py|
 |	Find and remove cycle if any    | RemoveCycle.py|
 |	Reverse sub list of K nodes each| ReverseKNodes.py|
