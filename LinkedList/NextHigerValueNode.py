@@ -78,7 +78,7 @@ def split(head):
 def merge(a, b):
     # Make a dummy node
     dummy = Node()
-    # dummy node next will be the head of our merged list
+    # dummy node arbit will be the head of our merged list
     dummy.arbit = None
 
     temp = SinglyLinkedList(dummy)
@@ -124,13 +124,14 @@ if __name__ == '__main__':
     linked_list.insert_at_beg(10)
     linked_list.insert_at_beg(5)
 
-    # before sorting
+    # before linking the arbit
     print('before linking')
     linked_list.print_data()
 
     # call merge_sort function
+    # to sort the linked list on the basis of the arbitrary pointers
     merge_sort(linked_list.head)
 
-    # after sorting
+    # after linking the arbit
     print('after linking')
     linked_list.print_data()
