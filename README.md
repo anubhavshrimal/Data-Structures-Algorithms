@@ -24,6 +24,15 @@ Contains some popular questions based on *dynamic programming approach*.
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
 
 ------------------------------------------------------------------------------
+### Matrix
+
+Contains some common algorithms and questions based on *Matrix*.
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|Search in a row wise and column wise sorted matrix| SearchRowColumnSorted.py|
+
+------------------------------------------------------------------------------
 ### Graph
 
 Contains implementation of Graph data structure and some common questions and algorithms related to it.
