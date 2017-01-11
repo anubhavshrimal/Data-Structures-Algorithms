@@ -31,6 +31,7 @@ Contains some common algorithms and questions based on *Matrix*.
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |Search in a row wise and column wise sorted matrix| SearchRowColumnSorted.py|
+|Given a 2D array, print it in spiral form|SpiralPrint.py|
 
 ------------------------------------------------------------------------------
 ### Graph
