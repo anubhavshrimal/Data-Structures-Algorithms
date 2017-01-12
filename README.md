@@ -69,6 +69,16 @@ Contains implementation of Linked List data structure and some common questions 
 |Skip M nodes and then delete N nodes alternately |SkipMDeleteN.py|
 
 ------------------------------------------------------------------------------
+### String_or_Array
+
+Contains some common questions and algorithms related to strings or 1-d arrays.
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|Print all permutations of a given string| StringPermutations.py|
+
+
+------------------------------------------------------------------------------
 ### Tree
 
 Contains implementation of Tree data structure and some common questions and algorithms related to it.
