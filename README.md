@@ -8,6 +8,9 @@ My implementation of some popular data structures and algorithms and interview q
 * [Graph](#graph)
 * [Linked List](#linked-list)
     * [Singly Linked List](#singly-linked-list)
+* [Mathematics](#mathematics)
+* [Matrix](#matrix)
+* [String_or_Array](#string-or-array)
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
 
