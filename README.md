@@ -69,6 +69,16 @@ Contains implementation of Linked List data structure and some common questions 
 |Skip M nodes and then delete N nodes alternately |SkipMDeleteN.py|
 
 ------------------------------------------------------------------------------
+### Mathematics
+
+Contains implementation of some common questions and algorithms related to Mathematics.
+
+| 			Topic/Question          |	Code File Name |
+|-----------------------------------|------------------|
+|	Sieve of Eratosthenes (find prime numbers up to n efficiently)| Sieve_of_Eratosthenes.py|
+
+
+------------------------------------------------------------------------------
 ### String_or_Array
 
 Contains some common questions and algorithms related to strings or 1-d arrays.
