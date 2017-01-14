@@ -10,7 +10,7 @@ My implementation of some popular data structures and algorithms and interview q
     * [Singly Linked List](#singly-linked-list)
 * [Mathematics](#mathematics)
 * [Matrix](#matrix)
-* [String_or_Array](#string-or-array)
+* [String or Array](#string-or-array)
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
 
@@ -82,7 +82,7 @@ Contains implementation of some common questions and algorithms related to Mathe
 
 
 ------------------------------------------------------------------------------
-### String_or_Array
+### String or Array
 
 Contains some common questions and algorithms related to strings or 1-d arrays.
 
