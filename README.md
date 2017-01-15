@@ -79,6 +79,7 @@ Contains implementation of some common questions and algorithms related to Mathe
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
 |	Sieve of Eratosthenes (find prime numbers up to n efficiently)| Sieve_of_Eratosthenes.py|
+|	print all prime factors of a given number | prime_factors.py|
 
 
 ------------------------------------------------------------------------------
