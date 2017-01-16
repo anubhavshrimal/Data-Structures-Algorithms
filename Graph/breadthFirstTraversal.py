@@ -29,10 +29,12 @@ class Graph:
                     queue.append(i)
         print()
 
-    def bfs(self, s):
+    def bfs(self, s=None):
         visited = {i: False for i in self.graph}
 
-        self.bfsUtil(s, visited)
+        # do bfs from the node specified
+        if s is not None:
+            self.bfsUtil(s, visited)
 
         for v in self.graph:
             if not visited[v]:
