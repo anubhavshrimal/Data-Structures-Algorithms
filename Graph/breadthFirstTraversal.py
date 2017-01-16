@@ -35,7 +35,7 @@ class Graph:
         # do bfs from the node specified
         if s is not None:
             self.bfsUtil(s, visited)
-
+        # traverse for all the vertices in other components of graph
         for v in self.graph:
             if not visited[v]:
                 self.bfsUtil(v, visited)
