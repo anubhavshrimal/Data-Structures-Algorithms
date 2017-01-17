@@ -45,6 +45,7 @@ Contains implementation of Graph data structure and some common questions and al
 |-----------------------------------|------------------|
 |	Graph implementation			| Graph.py|
 |	Breadth First Search Traversal  | breadthFirstTraversal.py|
+|	Depth First Search Traversal  | depthFirstTraversal.py|
 
 
 ------------------------------------------------------------------------------
