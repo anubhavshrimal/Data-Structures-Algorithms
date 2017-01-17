@@ -1,4 +1,4 @@
-# Program to perform breadth first traversal in a graph
+# Program to perform depth first traversal in a graph
 from collections import defaultdict
 
 
