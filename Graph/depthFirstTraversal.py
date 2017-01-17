@@ -61,7 +61,7 @@ if __name__ == '__main__':
     graph.addEdge(8, 9)
     graph.addEdge(7, 10)
 
-    # call bfs from 2 vertex
+    # call dfs from 2 vertex
     print("Depth First Traversal:")
     graph.dfs(2)
 
