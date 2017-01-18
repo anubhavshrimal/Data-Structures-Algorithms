@@ -12,6 +12,8 @@ class Graph:
 
         if self.directed is False:
             self.graph[to].append(frm)
+        else:
+        self.graph[to] = []
 
     def dfsUtil(self, s, visited):
         stack = []
