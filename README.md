@@ -43,9 +43,10 @@ Contains implementation of Graph data structure and some common questions and al
 
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
-|	Graph implementation			| Graph.py|
 |	Breadth First Search Traversal  | breadthFirstTraversal.py|
 |	Depth First Search Traversal  | depthFirstTraversal.py|
+|	Graph implementation			| Graph.py|
+|	Topological Sort                 | topologicalSort.py|
 
 
 ------------------------------------------------------------------------------
@@ -80,8 +81,8 @@ Contains implementation of some common questions and algorithms related to Mathe
 
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
-|	Sieve of Eratosthenes (find prime numbers up to n efficiently)| Sieve_of_Eratosthenes.py|
 |	print all prime factors of a given number | prime_factors.py|
+|	Sieve of Eratosthenes (find prime numbers up to n efficiently)| Sieve_of_Eratosthenes.py|
 
 
 ------------------------------------------------------------------------------
