@@ -33,8 +33,8 @@ class Graph:
         return False
 
     def isCyclic(self):
-        visited = {i: False for i in self.graph}
-        recurStack = {i: False for i in self.graph}
+        visited = {i: False for i in self.vertices}
+        recurStack = {i: False for i in self.vertices}
 
         # traverse for all the vertices of graph
         for v in self.vertices:
