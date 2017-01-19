@@ -14,7 +14,7 @@ class Graph:
         if self.directed is False:
             self.graph[to].append(frm)
         else:
-            self.graph[to] = []
+            self.graph[to] = self.graph[to]
 
     def topoSortUtil(self, s, visited, sortList):
         visited[s] = True

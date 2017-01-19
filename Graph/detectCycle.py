@@ -1,21 +1,19 @@
-# Program to detect cycle or loop in a directed graph
+# Program to detect cycle or loop in a graph
 from collections import defaultdict
 
 
 class Graph:
     def __init__(self, directed=False):
         self.graph = defaultdict(list)
-        self.vertices = []
         self.directed = directed
 
     def addEdge(self, frm, to):
-        self.vertices.append(frm)
-        self.vertices.append(to)
-
         self.graph[frm].append(to)
 
         if self.directed is False:
             self.graph[to].append(frm)
+        else:
+            self.graph[to] = self.graph[to]
 
     def isCyclicUtil(self, s, visited, recurStack):
 
@@ -33,11 +31,11 @@ class Graph:
         return False
 
     def isCyclic(self):
-        visited = {i: False for i in self.vertices}
-        recurStack = {i: False for i in self.vertices}
+        visited = {i: False for i in self.graph}
+        recurStack = {i: False for i in self.graph}
 
         # traverse for all the vertices of graph
-        for v in self.vertices:
+        for v in self.graph:
             if self.isCyclicUtil(v, visited, recurStack):
                 return True
         return False
