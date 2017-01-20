@@ -1,4 +1,4 @@
-# Program to detect cycle or loop in a graph
+# Program to detect cycle or loop in a directed graph
 from collections import defaultdict
 
 
