@@ -46,6 +46,7 @@ Contains implementation of Graph data structure and some common questions and al
 |	Breadth First Search Traversal  | breadthFirstTraversal.py|
 |	Depth First Search Traversal  | depthFirstTraversal.py|
 |	Detect Cycle in directed graph  | detectCycleDirected.py|
+|Detect cycle in undirected graph   |detectCycleUndirected.py|
 |	Graph implementation			| Graph.py|
 |	Topological Sort                 | topologicalSort.py|
 
