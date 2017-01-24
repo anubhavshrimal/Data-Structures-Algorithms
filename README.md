@@ -43,6 +43,7 @@ Contains implementation of Graph data structure and some common questions and al
 
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
+|Find all possible words in a board of characters| boggle.py|
 |	Breadth First Search Traversal  | breadthFirstTraversal.py|
 |	Depth First Search Traversal  | depthFirstTraversal.py|
 |	Detect Cycle in directed graph  | detectCycleDirected.py|
