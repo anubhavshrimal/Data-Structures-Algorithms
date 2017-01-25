@@ -33,16 +33,21 @@ class Graph:
         # set distance of src vertex from itself 0
         dist[src] = 0
 
+        # find shortest path for all vertices
         for i in range(len(self.graph)-1):
+            # find minimum distance vertex from source
+            # initially src itself as dist[src] = 0
             u = self.find_min(dist, visited)
 
+            # mark the node as visited
             visited[u] = True
-
+            # check if the distance through current edge is less than previously known distance to v
             for v, w in self.graph[u]:
+
                 if visited[v] is False and dist[u] + w < dist[v]:
                     dist[v] = dist[u] + w
                     parent[v] = u
-
+        # return parent list and distance to each node from source
         return parent, dist
 
     def printPath(self, parent, v):
