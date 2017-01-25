@@ -48,6 +48,7 @@ Contains implementation of Graph data structure and some common questions and al
 |	Depth First Search Traversal  | depthFirstTraversal.py|
 |	Detect Cycle in directed graph  | detectCycleDirected.py|
 |Detect cycle in undirected graph   |detectCycleUndirected.py|
+|Dijkstra’s Shortest Path Algorithm| dijkstraShortestPath.py|
 |	Graph implementation			| Graph.py|
 |	Kruskal's Algorithm for Minimum Spanning Tree| kruskalMST.py|
 |	Topological Sort                 | topologicalSort.py|
