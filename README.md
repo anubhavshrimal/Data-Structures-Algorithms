@@ -24,6 +24,7 @@ Contains some popular questions based on *dynamic programming approach*.
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
+| minimum number of edits (operations) required to convert ‘str1’ into ‘str2’|editDistance.py|
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
 
 ------------------------------------------------------------------------------
