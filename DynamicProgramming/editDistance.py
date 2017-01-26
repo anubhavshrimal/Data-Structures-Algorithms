@@ -38,7 +38,7 @@ def edit_distance(str1, str2, m, n):
 
 
 if __name__ == '__main__':
-    str1 = 'Anubhav'
-    str2 = 'Ashna'
+    str1 = 'sunday'
+    str2 = 'saturday'
 
     print(edit_distance(str1, str2, len(str1), len(str2)))
