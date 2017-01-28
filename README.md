@@ -25,6 +25,7 @@ Contains some popular questions based on *dynamic programming approach*.
 |-----------------------------------|------------------|
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
 | minimum number of edits (operations) required to convert ‘str1’ into ‘str2’|editDistance.py|
+|Given two sequences, print the longest subsequence present in both of them.|LongestCommonSubsequence.py|
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
 |Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps|WaysToCoverDistance.py|
 
