@@ -19,6 +19,8 @@ def find_min(arr):
             if arr[i-1] <= j:
                 dp[i][j] |= dp[i-1][j - arr[i-1]]
 
+    for i in dp:
+        print(i)
     diff = float('inf')
 
     for j in range(int(sum_of_arr/2), -1, -1):
