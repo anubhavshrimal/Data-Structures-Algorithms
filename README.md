@@ -24,8 +24,9 @@ Contains some popular questions based on *dynamic programming approach*.
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
-| minimum number of edits (operations) required to convert ‘str1’ into ‘str2’|editDistance.py|
+| minimum number of edits (operations) required to convert ‘str1’ into ‘str2’|EditDistance.py|
 |Given two sequences, print the longest subsequence present in both of them.|LongestCommonSubsequence.py|
+|Partition a set into two subsets such that the difference of subset sums is minimum|MinimumPartition.py|
 |	Maximum Subarray Problem		|TheMaximumSubarray.py|
 |Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps|WaysToCoverDistance.py|
 
