@@ -24,6 +24,7 @@ Contains some popular questions based on *dynamic programming approach*.
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	0-1 Knapsack Problem			| 01_KnapsackProblem.py|
+|Cutting Rod problem| CuttingRod.py|
 | minimum number of edits (operations) required to convert ‘str1’ into ‘str2’|EditDistance.py|
 |Given two sequences, print the longest subsequence present in both of them.|LongestCommonSubsequence.py|
 |Find minimum cost path in a matrix from (0,0) to given point (m,n)| MinCostPath.py|
