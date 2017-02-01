@@ -15,6 +15,25 @@ def flatten_dict(initialVal, dictionary, flatDictionary):
                 flatten_dict(initialVal + '.' + key, value, flatDictionary)
 
 
+# iterative solution
+def flatten_dict2(dictionary):
+    flatDictionary = {}
+    stack = [(dictionary, None)]
+    while stack:
+        d, path = stack.pop()
+
+        for k, v in d.items():
+            if path is None:
+                newkey = k
+            else:
+                newkey = '.'.join([path, k])
+            if isinstance(v, dict):
+                stack.append((v, newkey))
+            else:
+                flatDictionary[newkey] = v
+    return flatDictionary
+
+
 if __name__ == '__main__':
     flatDictionary = {}
     dictionary = {
@@ -29,7 +48,11 @@ if __name__ == '__main__':
         }
     }
 
+    # recursive function call
     flatten_dict(None, dictionary, flatDictionary)
+    
+    # iterative function call
+    f = flatten_dict2(dictionary)
 
-    for k in flatDictionary:
-        print(k, ":", flatDictionary[k])
+    for k in f:
+        print(k, ":", f[k])
