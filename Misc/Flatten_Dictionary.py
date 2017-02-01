@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     # recursive function call
     flatten_dict(None, dictionary, flatDictionary)
-    
+
     # iterative function call
     f = flatten_dict2(dictionary)
 
