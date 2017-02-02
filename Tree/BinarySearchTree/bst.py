@@ -64,14 +64,20 @@ class BinarySearchTree:
             else:
                 current_node.right_child = Node(data, parent=current_node)
 
-    def get_successor(self, current_node):
+    @staticmethod
+    def get_successor(current_node):
         if current_node.has_right_child():
             current_node = current_node.right_child
             while current_node.has_left_child():
                 current_node = current_node.left_child
             return current_node
-        else:
-            return None
+
+        ancestor = current_node.parent
+        child = current_node
+        while ancestor is not None and child is ancestor.right_child:
+            child = ancestor
+            ancestor = child.parent
+        return ancestor
 
     def delete_node(self, data):
         if self.root is None:
