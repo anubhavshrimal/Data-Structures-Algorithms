@@ -112,6 +112,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |Print all permutations of a given string| StringPermutations.py|
+|Find a pattern in a string using KMP search algorithm|KMP_StringMatching.py|
 
 
 ------------------------------------------------------------------------------

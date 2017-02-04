@@ -54,7 +54,6 @@ def get_prefix_arr(pattern, m):
 
     return prefix_arr
 
-
 txt = "ABABDABACDABABCABABCABAB"
 pat = "ABABCABAB"
 
