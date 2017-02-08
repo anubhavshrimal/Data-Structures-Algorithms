@@ -13,6 +13,7 @@ My implementation of some popular data structures and algorithms and interview q
 * [String or Array](#string-or-array)
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
+    * [Binary Tree](#binary-tree)
 
 ------------------------------------------------------------------------------
 ## Content:
@@ -125,7 +126,13 @@ Contains implementation of Tree data structure and some common questions and alg
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
-|	Binary Search Tree implementation			| bst.py|
+|	Binary Search Tree implementation			| BST.py|
+
+##### Binary Tree
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|	Find minimum depth of a binary tree | Minimum_height.py|
 
 
 ------------------------------------------------------------------------------
