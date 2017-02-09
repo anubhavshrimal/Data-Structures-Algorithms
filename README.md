@@ -127,6 +127,7 @@ Contains implementation of Tree data structure and some common questions and alg
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	Binary Search Tree implementation			| BST.py|
+|Given a sorted array, create a BST with minimal height|Minimal_Tree.py|
 
 ##### Binary Tree
 
