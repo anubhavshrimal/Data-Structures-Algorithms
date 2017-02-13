@@ -65,7 +65,7 @@ class BinarySearchTree:
                 current_node.right_child = Node(data, parent=current_node)
 
     @staticmethod
-    def get_successor(current_node):
+    def find_inorder_ancestor(current_node):
         if current_node.has_right_child():
             current_node = current_node.right_child
             while current_node.has_left_child():
@@ -102,7 +102,7 @@ class BinarySearchTree:
                 else:
                     current_node.parent.right_child = None
             else:
-                successor = self.get_successor(current_node)
+                successor = self.find_inorder_ancestor(current_node)
                 if successor is None:
                     current_node.data = current_node.left_child.data
                     current_node.left_child = None

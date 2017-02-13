@@ -5,8 +5,8 @@ class Node:
     # Constructor to initialise node
     def __init__(self, data):
         self.data = data
-        self.left_child = None
-        self.right_child = None
+        self.left = None
+        self.right = None
 
 
 def list_of_depths(root):
@@ -21,19 +21,19 @@ def list_of_depths(root):
         depths.append(q)
         q = []
         for parent in parents:
-            if parent.left_child is not None:
-                q.append(parent.left_child)
-            if parent.right_child is not None:
-                q.append(parent.right_child)
+            if parent.left is not None:
+                q.append(parent.left)
+            if parent.right is not None:
+                q.append(parent.right)
 
     return depths
 
 if __name__ == '__main__':
     root = Node(1)
-    root.left_child = Node(2)
-    root.right_child = Node(3)
-    root.left_child.left_child = Node(4)
-    root.left_child.right_child = Node(5)
+    root.left = Node(2)
+    root.right = Node(3)
+    root.left.left = Node(4)
+    root.left.right = Node(5)
 
     for depth, list_nodes in enumerate(list_of_depths(root)):
         print('Depth', depth, end=': ')
