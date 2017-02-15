@@ -115,6 +115,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 |-----------------------------------|------------------|
 |Find a pattern in a string using KMP search algorithm|KMP_StringMatching.py|
 |reverse the order of the words in the array|Sentence_Reverse.py|
+|Find index of given number in a sorted array shifted by an unknown offset|Shifted_Array_Search.py|
 |Print all permutations of a given string| StringPermutations.py|
 
 
