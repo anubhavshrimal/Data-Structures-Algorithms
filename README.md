@@ -11,6 +11,7 @@ My implementation of some popular data structures and algorithms and interview q
 * [Mathematics](#mathematics)
 * [Matrix](#matrix)
 * [String or Array](#string-or-array)
+    * [Sorting](#sorting)
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
     * [Binary Tree](#binary-tree)
@@ -118,6 +119,11 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 |Find index of given number in a sorted array shifted by an unknown offset|Shifted_Array_Search.py|
 |Print all permutations of a given string| StringPermutations.py|
 
+#### Sorting
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|Sort an array where each element is at most k places away from its sorted position|K_Messed_Sort.py|
 
 ------------------------------------------------------------------------------
 ### Tree
