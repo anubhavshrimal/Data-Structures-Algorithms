@@ -90,7 +90,7 @@ class BinarySearchTree:
 
     def _delete(self, data, current_node):
         while current_node is not None and data != current_node.data:
-            if data < current_node.data:
+            if data <= current_node.data:
                 current_node = current_node.left_child
             else:
                 current_node = current_node.right_child
