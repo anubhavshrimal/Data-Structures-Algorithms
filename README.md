@@ -124,6 +124,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |Sort an array where each element is at most k places away from its sorted position|K_Messed_Sort.py|
+|Quick Sort Algorithm using last element as pivot|Quick_Sort.py|
 
 ------------------------------------------------------------------------------
 ### Tree
