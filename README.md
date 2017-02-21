@@ -147,6 +147,7 @@ Contains implementation of Tree data structure and some common questions and alg
 |Check if a binary tree is height balanced|Check_Balanced.py|
 |Find the Lowest Common Ancestor in a Binary Tree|Lowest_Common_Ancestor.py|
 |Create a list of all nodes at each depth|List_Of_Depths.py|
+|Find the maximum path sum i.e. max sum of a path in a binary tree|Max_Path_Sum.py|
 |	Find minimum depth of a binary tree | Minimum_height.py|
 
 
