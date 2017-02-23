@@ -4,6 +4,7 @@ My implementation of some popular data structures and algorithms and interview q
 
 ## Index:
 
+* [Bit Manipulation](#bit-manipulation)
 * [Dynamic Programming](#dynamic-programming)
 * [Graph](#graph)
 * [Linked List](#linked-list)
@@ -19,6 +20,15 @@ My implementation of some popular data structures and algorithms and interview q
 ------------------------------------------------------------------------------
 ## Content:
 
+### Bit Manipulation
+
+Contains some popular questions based on *bit manipulations*.
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|Count number of bits needed to be flipped to convert A to B|Count_Bits_Flip_A_B.py|
+
+------------------------------------------------------------------------------
 ### Dynamic Programming
 
 Contains some popular questions based on *dynamic programming approach*. 
