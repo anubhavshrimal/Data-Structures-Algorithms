@@ -2,7 +2,20 @@
 
 
 def count_bits_flip(a, b):
-    return bin(a ^ b).count("1")
+    # XOR a and b to get 1 on opposite value bit position
+    c = a ^ b
+
+    # initialise the counter for 1
+    count = 0
+
+    # count the number of 1s while there is 1 in a ^ b
+    while c != 0:
+        count += 1
+        c &= (c-1)
+
+    # return the count of 1s
+    return count
+
 
 # 2 = 0010
 # 8 = 1000
