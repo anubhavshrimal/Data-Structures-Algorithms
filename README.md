@@ -26,6 +26,7 @@ Contains some popular questions based on *bit manipulations*.
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
+|Check whether a given number n is a power of 2 or 0|Check_Pow_2.py|
 |Count number of bits needed to be flipped to convert A to B|Count_Bits_Flip_A_B.py|
 
 ------------------------------------------------------------------------------
