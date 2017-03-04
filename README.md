@@ -164,6 +164,7 @@ Contains implementation of Tree data structure and some common questions and alg
 |Create a list of all nodes at each depth|List_Of_Depths.py|
 |Find the maximum path sum i.e. max sum of a path in a binary tree|Max_Path_Sum.py|
 |	Find minimum depth of a binary tree | Minimum_height.py|
+|Remove nodes on root to leaf paths of length < K|Remove_Path_Less_Than_K.py|
 |Given a Perfect Binary Tree, reverse the alternate level nodes of the tree|Reverse_Alternate_Levels_PBT.py|
 
 
