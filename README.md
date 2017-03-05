@@ -166,6 +166,7 @@ Contains implementation of Tree data structure and some common questions and alg
 |	Find minimum depth of a binary tree | Minimum_height.py|
 |Remove nodes on root to leaf paths of length < K|Remove_Path_Less_Than_K.py|
 |Given a Perfect Binary Tree, reverse the alternate level nodes of the tree|Reverse_Alternate_Levels_PBT.py|
+|Print Nodes in Top View of Binary Tree|Top_View.py|
 
 
 ------------------------------------------------------------------------------
