@@ -160,6 +160,7 @@ Contains implementation of Tree data structure and some common questions and alg
 |-----------------------------------|------------------|
 |Print Nodes in Bottom View of Binary Tree|Bottom_View.py|
 |Check if a binary tree is height balanced|Check_Balanced.py|
+|Check whether a binary tree is a full binary tree or not|Check_Full_BinaryTree.py|
 |Given two binary trees, check if the first tree is subtree of the second one|Is_SubTree.py|
 |Find the Lowest Common Ancestor in a Binary Tree|Lowest_Common_Ancestor.py|
 |Create a list of all nodes at each depth|List_Of_Depths.py|
