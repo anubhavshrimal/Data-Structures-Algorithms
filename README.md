@@ -150,6 +150,7 @@ Contains implementation of Tree data structure and some common questions and alg
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
 |	Binary Search Tree implementation			| BST.py|
+|Check if a given array can represent Preorder Traversal of Binary Search Tree|Check_Correct_Preorder.py|
 |Find the in-order ancestor of a given node in BST|InOrder_Ancestor.py|
 |Find the Lowest Common Ancestor|Lowest_Common_Ancestor.py|
 |Given a sorted array, create a BST with minimal height|Minimal_Tree.py|
