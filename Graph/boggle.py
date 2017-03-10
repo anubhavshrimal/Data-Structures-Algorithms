@@ -31,7 +31,6 @@ def findWordsUtil(words, boggle, visited, found, r, c, str):
             findWordsUtil(words, boggle, visited, found, i, j, str)
 
     # backtrack and set the status of current character as not traversed
-    str = str[0:len(str)-1]
     visited[r][c] = False
 
 
