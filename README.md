@@ -28,6 +28,7 @@ Contains some popular questions based on *bit manipulations*.
 |-----------------------------------|------------------|
 |Check whether a given number n is a power of 2 or 0|Check_Pow_2.py|
 |Count number of bits needed to be flipped to convert A to B|Count_Bits_Flip_A_B.py|
+|Find the two non-repeating elements in an array of repeating elements|Find_Non_Repeating.py|
 |Find the next greater and next smaller number with same number of set bits|Next_Number.py|
 
 ------------------------------------------------------------------------------
