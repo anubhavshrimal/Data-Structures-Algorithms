@@ -64,16 +64,16 @@ Contains implementation of Graph data structure and some common questions and al
 
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
-|Find all possible words in a board of characters| boggle.py|
-|	Breadth First Search Traversal  | breadthFirstTraversal.py|
-|	Depth First Search Traversal  | depthFirstTraversal.py|
-|	Detect Cycle in directed graph  | detectCycleDirected.py|
-|Detect cycle in undirected graph   |detectCycleUndirected.py|
-|Dijkstra’s Shortest Path Algorithm| dijkstraShortestPath.py|
+|Find all possible words in a board of characters| Boggle.py|
+|	Breadth First Search Traversal  | BreadthFirstTraversal.py|
+|	Depth First Search Traversal  | DepthFirstTraversal.py|
+|	Detect Cycle in directed graph  | DetectCycleDirected.py|
+|Detect cycle in undirected graph   |DetectCycleUndirected.py|
+|Dijkstra’s Shortest Path Algorithm| DijkstraShortestPath.py|
 |Find shortest distances between each pair of vertices in a given edge weighted directed Graph|FloydWarshall_AllPairsShortestPath.py|
 |	Graph implementation			| Graph.py|
-|	Kruskal's Algorithm for Minimum Spanning Tree| kruskalMST.py|
-|	Topological Sort                 | topologicalSort.py|
+|	Kruskal's Algorithm for Minimum Spanning Tree| KruskalMST.py|
+|	Topological Sort                 | TopologicalSort.py|
 
 
 ------------------------------------------------------------------------------
@@ -110,7 +110,7 @@ Contains implementation of some common questions and algorithms related to Mathe
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
 |Find the greatest common divisor of 2 numbers|GCD.py|
-|	print all prime factors of a given number | prime_factors.py|
+|	print all prime factors of a given number | Prime_factors.py|
 |	Sieve of Eratosthenes (find prime numbers up to n efficiently)| Sieve_of_Eratosthenes.py|
 
 ------------------------------------------------------------------------------
