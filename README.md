@@ -12,6 +12,7 @@ My implementation of some popular data structures and algorithms and interview q
 * [Mathematics](#mathematics)
 * [Matrix](#matrix)
 * [String or Array](#string-or-array)
+    * [Searching](#searching)
     * [Sorting](#sorting)
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
@@ -135,10 +136,20 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 |Find index of given number in a sorted array shifted by an unknown offset|Shifted_Array_Search.py|
 |Print all permutations of a given string| StringPermutations.py|
 
+#### Searching
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|Linear Search in an array|Linear_Search.py|
+|Binary Search in an array|Binary_Search.py|
+|Interpolation Search in an array|Interpolation_Search.py|
+
 #### Sorting
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
+|Bubble sort in an array|Bubble_Sort.py|
+|Insertion sort in an array|Insertion_Sort.py|
 |Sort an array where each element is at most k places away from its sorted position|K_Messed_Sort.py|
 |Quick Sort Algorithm using last element as pivot|Quick_Sort.py|
 
