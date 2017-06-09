@@ -148,11 +148,12 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
-|Bubble sort Algorithm in an array|Bubble_Sort.py|
-|Insertion sort Algorithm in an array|Insertion_Sort.py|
+|Bubble sort Algorithm|Bubble_Sort.py|
+|Insertion sort Algorithm|Insertion_Sort.py|
 |Sort an array where each element is at most k places away from its sorted position|K_Messed_Sort.py|
+|Merge Sort Algorithm|Merge_Sort.py|
 |Quick Sort Algorithm using last element as pivot|Quick_Sort.py|
-|Selection sort Algorithm in an array|Selection_Sort.py|
+|Selection sort Algorithm|Selection_Sort.py|
 
 ------------------------------------------------------------------------------
 ### Tree
