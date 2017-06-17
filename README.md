@@ -132,6 +132,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 |-----------------------------------|------------------|
 |Find the longest substring with k unique characters in a given string|K_Unique_Substring.py|
 |Find a pattern in a string using KMP search algorithm|KMP_StringMatching.py|
+|Find a pair in an array with sum x|PairSum_is_X.py|
 |reverse the order of the words in the array|Sentence_Reverse.py|
 |Find index of given number in a sorted array shifted by an unknown offset|Shifted_Array_Search.py|
 |Print all permutations of a given string| StringPermutations.py|
