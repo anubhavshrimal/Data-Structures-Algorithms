@@ -27,8 +27,11 @@ class SinglyLinkedList:
         prev = None
 
         while current is not None:
+            # Store the value of current.next
             next = current.next
+            # Set current.next to point to the previous node
             current.next = prev
+            # Update pointers for next iteration
             prev = current
             current = next
 
