@@ -76,6 +76,15 @@ Contains implementation of Graph data structure and some common questions and al
 |	Kruskal's Algorithm for Minimum Spanning Tree| KruskalMST.py|
 |	Topological Sort                 | TopologicalSort.py|
 
+------------------------------------------------------------------------------
+### Heaps
+
+Contains implementation of Heap data structure and some common questions and algorithms related to it.
+
+| 			Topic/Question          |	Code File Name |
+|-----------------------------------|------------------|
+|Max Heap implementation| MaxHeap.py|
+
 
 ------------------------------------------------------------------------------
 ### Linked List
