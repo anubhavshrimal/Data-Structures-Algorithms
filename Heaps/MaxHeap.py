@@ -87,7 +87,6 @@ def create_max_heap(arr):
     """
     Converts a given array into a max heap
     :param arr: input array of numbers
-    :return: output max heap
     """
     n = len(arr)
 
@@ -96,11 +95,9 @@ def create_max_heap(arr):
     for i in range(int(n/2), -1, -1):
         max_heapify(i, arr, n)
 
-    return arr
-
 
 heap = [5, 10, 4, 8, 3, 0, 9, 11]
-heap = create_max_heap(heap)
+create_max_heap(heap)
 insert(15, heap)
 print(delete(2, heap))
 print(extract_max(heap))
