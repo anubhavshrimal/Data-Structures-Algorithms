@@ -83,8 +83,8 @@ Contains implementation of Heap data structure and some common questions and alg
 
 | 			Topic/Question          |	Code File Name |
 |-----------------------------------|------------------|
-|Max Heap implementation| MaxHeap.py|
-
+|	Heap Sort algorithm             | HeapSort.py|
+|   Max Heap implementation         | MaxHeap.py|
 
 ------------------------------------------------------------------------------
 ### Linked List
