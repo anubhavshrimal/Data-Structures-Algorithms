@@ -65,8 +65,7 @@ class SinglyLinkedList:
             if previous is None:
                 self.head = None
             else:
-                previous.next
-                None
+                previous.next = None
 
     # function to delete from the beginning of the list
     def delete_from_beg(self):
