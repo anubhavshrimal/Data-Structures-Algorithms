@@ -85,6 +85,7 @@ Contains implementation of Heap data structure and some common questions and alg
 |-----------------------------------|------------------|
 |	Heap Sort algorithm             | HeapSort.py|
 |   Max Heap implementation         | MaxHeap.py|
+|   Min Heap implementation         | MinHeap.py|
 
 ------------------------------------------------------------------------------
 ### Linked List
