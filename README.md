@@ -7,6 +7,7 @@ My implementation of some popular data structures and algorithms and interview q
 * [Bit Manipulation](#bit-manipulation)
 * [Dynamic Programming](#dynamic-programming)
 * [Graph](#graph)
+* [Heaps](#heaps)
 * [Linked List](#linked-list)
     * [Singly Linked List](#singly-linked-list)
 * [Mathematics](#mathematics)
