@@ -87,6 +87,7 @@ Contains implementation of Heap data structure and some common questions and alg
 |	Heap Sort algorithm             | HeapSort.py|
 |   Max Heap implementation         | MaxHeap.py|
 |   Min Heap implementation         | MinHeap.py|
+|Find the median for an incoming stream of numbers after each insertion in the list of numbers|RunningMedian.py|
 
 ------------------------------------------------------------------------------
 ### Linked List
