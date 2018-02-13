@@ -18,6 +18,7 @@ My implementation of some popular data structures and algorithms and interview q
 * [Tree](#tree)
     * [Binary Search Tree](#binary-search-tree)
     * [Binary Tree](#binary-tree)
+    * [Trie](#trie)
 
 ------------------------------------------------------------------------------
 ## Content:
@@ -201,5 +202,10 @@ Contains implementation of Tree data structure and some common questions and alg
 |Given a Perfect Binary Tree, reverse the alternate level nodes of the tree|Reverse_Alternate_Levels_PBT.py|
 |Print Nodes in Top View of Binary Tree|Top_View.py|
 
+##### Trie
+
+| 			Topic/Question			|	Code File Name |
+|-----------------------------------|------------------|
+|Implementation of Trie data structure|Trie.py|
 
 ------------------------------------------------------------------------------
