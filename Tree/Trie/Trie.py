@@ -109,7 +109,7 @@ class Trie:
                     val = 0
             # if word was found and lowest parent which forms new word was also found
             # simply reduce the isPrefixOf value of the node
-            if val == 0:
+            elif val == 0:
                 node.isPrefixOf -= 1
             return val
 
