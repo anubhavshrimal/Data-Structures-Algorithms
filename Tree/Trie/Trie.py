@@ -8,6 +8,7 @@ class Node:
         self.isComplete = isComplete
         self.children = {}
         self.value = value
+        self.isPrefixOf = 0
 
 
 class Trie:
@@ -24,6 +25,9 @@ class Trie:
         curr_node = self.root
 
         for ch in chars:
+            # The substring till this node will now become a prefix of newly added word
+            curr_node.isPrefixOf += 1
+
             if ch in curr_node.children:
                 curr_node = curr_node.children[ch]
             else:
@@ -63,27 +67,53 @@ class Trie:
         chars = list(word)
         n = len(chars)
 
-        curr_node = self.root
-        last_complete_node = None
-        child_of_last_complete = None
+        val = self._delete(self.root, word)
+        return True if val == 1 or val == 0 else False
 
-        for i, ch in enumerate(chars):
-            if (curr_node.isComplete or len(curr_node.children.keys()) > 1) and i < n-1:
-                last_complete_node = curr_node
-                child_of_last_complete = ch
-            if ch in curr_node.children:
-                curr_node = curr_node.children[ch]
-            else:
-                return False
+    def _delete(self, node, chars):
+        """
+        Recursive Helper function to delete the word and decreement the isPrefix of values
+        :param node: current node looking at
+        :param chars: array of characters to look for
+        :return: 1 is word is deleted, 0 if word is deleted and
+        """
 
-        curr_node.isComplete = False
-        if len(curr_node.children.keys()) > 0:
-            last_complete_node = None
+        # if the chars array is empty
+        if len(chars) == 0:
+            # check if the word is present in the trie
+            if node.isComplete:
+                node.isComplete = False
 
-        if last_complete_node is not None:
-            del last_complete_node.children[child_of_last_complete]
+                # check if the word was a prefix of any other words in trie
+                # if so, decrement isPrefixOf and return 0, as no deletions are required
+                if len(node.children.keys()) > 0:
+                    node.isPrefixOf -= 1
+                    return 0
 
-        return True
+                # if word was not a prefix then we need to go up in the trie
+                # and find the lowest parent which forms a new word in trie
+                return 1
+            # if word is not present in the trie
+            return -1
+
+        # check if the character is present in current node's children
+        if chars[0] in node.children:
+            # recursive call for remaining characters in the respective child
+            val = self._delete(node.children[chars[0]], chars[1:])
+
+            # if word was found but lowest parent which forms new word is not found
+            if val == 1:
+                if node.isComplete or len(node.children.keys()) > 1:
+                    del node.children[chars[0]]
+                    node.isPrefixOf -= 1
+                    val = 0
+            # if word was found and lowest parent which forms new word was also found
+            # simply reduce the isPrefixOf value of the node
+            if val == 0:
+                node.isPrefixOf -= 1
+            return val
+
+        return -1
 
 
 trie = Trie()
@@ -103,3 +133,5 @@ if trie.search("anubhav") is not None:
     print("anubhav is present in the Trie")
 else:
     print("anubhav is NOT present in the Trie")
+
+print("Number of words in trie:", trie.root.isPrefixOf)
