@@ -155,21 +155,21 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
-|Linear Search in an array|[](String_or_Array/)Linear_Search.py|
-|Binary Search in an array|[](String_or_Array/)Binary_Search.py|
-|Interpolation Search in an array|[](String_or_Array/)Interpolation_Search.py|
+|Linear Search in an array|[Linear_Search.py](String_or_Array/Searching/Linear_Search.py)|
+|Binary Search in an array|[Binary_Search.py](String_or_Array/Searching/Binary_Search.py)|
+|Interpolation Search in an array|[Interpolation_Search.py](String_or_Array/Searching/Interpolation_Search.py)|
 
 #### Sorting
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
-|Bubble sort Algorithm|[Bubble_Sort.py](String_or_Array/Bubble_Sort.py)|
-|Counting sort Algorithm (non-comparision based sorting)|[Counting_Sort.py](String_or_Array/Counting_Sort.py)|
-|Insertion sort Algorithm|[Insertion_Sort.py](String_or_Array/Insertion_Sort.py)|
-|Sort an array where each element is at most k places away from its sorted position|[K_Messed_Sort.py](String_or_Array/K_Messed_Sort.py)|
-|Merge Sort Algorithm|[Merge_Sort.py](String_or_Array/Merge_Sort.py)|
-|Quick Sort Algorithm using last element as pivot|[Quick_Sort.py](String_or_Array/Quick_Sort.py)|
-|Selection sort Algorithm|[Selection_Sort.py](String_or_Array/Selection_Sort.py)|
+|Bubble sort Algorithm|[Bubble_Sort.py](String_or_Array/Sorting/Bubble_Sort.py)|
+|Counting sort Algorithm (non-comparision based sorting)|[Counting_Sort.py](String_or_Array/Sorting/Counting_Sort.py)|
+|Insertion sort Algorithm|[Insertion_Sort.py](String_or_Array/Sorting/Insertion_Sort.py)|
+|Sort an array where each element is at most k places away from its sorted position|[K_Messed_Sort.py](String_or_Array/Sorting/K_Messed_Sort.py)|
+|Merge Sort Algorithm|[Merge_Sort.py](String_or_Array/Sorting/Merge_Sort.py)|
+|Quick Sort Algorithm using last element as pivot|[Quick_Sort.py](String_or_Array/Sorting/Quick_Sort.py)|
+|Selection sort Algorithm|[Selection_Sort.py](String_or_Array/Sorting/Selection_Sort.py)|
 
 ------------------------------------------------------------------------------
 ### Tree
