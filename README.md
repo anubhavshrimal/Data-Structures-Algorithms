@@ -44,6 +44,7 @@ Contains some popular questions based on *dynamic programming approach*.
 |	0-1 Knapsack Problem			| [01_KnapsackProblem.py](DynamicProgramming/01_KnapsackProblem.py)|
 |Cutting Rod problem| [CuttingRod.py](DynamicProgramming/CuttingRod.py)|
 | minimum number of edits (operations) required to convert ‘str1’ into ‘str2’|[EditDistance.py](DynamicProgramming/EditDistance.py)|
+| Given a 2-D matrix of 0s and 1s, find the Largest Square which contains all 1s in itself |[LargestSquareInMatrix.py](DynamicProgramming/LargestSquareInMatrix.py)|
 |Given two sequences, print the longest subsequence present in both of them.|[LongestCommonSubsequence.py](DynamicProgramming/LongestCommonSubsequence.py)|
 |Find minimum cost path in a matrix from (0,0) to given point (m,n)| [MinCostPath.py](DynamicProgramming/MinCostPath.py)|
 |Partition a set into two subsets such that the difference of subset sums is minimum|[MinimumPartition.py](DynamicProgramming/MinimumPartition.py)|
