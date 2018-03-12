@@ -58,6 +58,7 @@ Contains some common algorithms and questions based on *Matrix*.
 
 | 			Topic/Question			|	Code File Name |
 |-----------------------------------|------------------|
+|Given the Coordinates of King and Queen on a chessboard, check if queen threatens the king| [CheckQueenThreatsKing.py](Matrix/CheckQueenThreatsKing.py)|
 |Search in a row wise and column wise sorted matrix| [SearchRowColumnSorted.py](Matrix/SearchRowColumnSorted.py)|
 |Given a 2D array, print it in spiral form|[SpiralPrint.py](Matrix/SpiralPrint.py)|
 
