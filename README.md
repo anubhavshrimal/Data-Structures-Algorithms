@@ -149,6 +149,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 |Find a pattern in a string using KMP search algorithm|[KMP_StringMatching.py](String_or_Array/KMP_StringMatching.py)|
 |Find the Kth smallest element in the array |[Kth_Smallest.py](String_or_Array/Kth_Smallest.py)|
 |Find a pair in an array with sum x|[PairSum_is_X.py](String_or_Array/PairSum_is_X.py)|
+|Print all valid (properly opened and closed) combinations of n pairs of parentheses|[ParenthesesCombinations.py](String_or_Array/ParenthesesCombinations.py)|
 |reverse the order of the words in the array|[Sentence_Reverse.py](String_or_Array/Sentence_Reverse.py)|
 |Find index of given number in a sorted array shifted by an unknown offset|[Shifted_Array_Search.py](String_or_Array/Shifted_Array_Search.py)|
 |Print all permutations of a given string| [StringPermutations.py](String_or_Array/StringPermutations.py)|
