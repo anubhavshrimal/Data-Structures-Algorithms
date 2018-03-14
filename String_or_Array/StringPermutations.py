@@ -2,6 +2,7 @@
 
 count = 0
 
+
 def permutations(mat, l, r):
     if l == r:
         print(''.join(mat))
@@ -14,6 +15,6 @@ def permutations(mat, l, r):
             mat[l], mat[i] = mat[i], mat[l]
 
 
-string  = "ABC"
+string = "ABC"
 permutations(list(string), 0, len(string)-1)
 print('total permutations:', count)
