@@ -4,6 +4,7 @@
 
 from math import sqrt
 
+
 def prime_factors(num):
     # list to store the prime factors
     prime_factor_lis = []

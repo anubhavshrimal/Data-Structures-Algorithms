@@ -11,7 +11,7 @@ def longest_k_unique(string, k):
             unique += 1
 
     if unique < k:
-        return -1
+        return -1, -1
 
     count = [0] * 26
     curr_end = curr_start = max_window_start = 0
@@ -43,8 +43,12 @@ def isValid(count, k):
 
 
 if __name__ == '__main__':
-    string = 'aabacbebebe'
+    string = 'aabaabab'
     k = 3
     max_start, max_len = longest_k_unique(string, k)
-    print('max string with {} unique characters is "'.format(k) + string[max_start: max_start + max_len] +
-          '" of length', max_len)
+
+    if max_len == -1:
+        print("K unique characters sub string does not exist.")
+    else:
+        print('max string with {} unique characters is "'.format(k) + string[max_start: max_start + max_len] +
+              '" of length', max_len)

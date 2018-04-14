@@ -1,5 +1,4 @@
 # Kruskal’s Minimum Spanning Tree Algorithm
-from collections import defaultdict
 
 
 class Graph:
@@ -73,10 +72,6 @@ class Graph:
         return g
 
 
-
-
-
-
 if __name__ == '__main__':
     # make an undirected graph
     graph = Graph()
@@ -91,4 +86,3 @@ if __name__ == '__main__':
 
     for f, t, w in new_graph.edges:
         print(f, "--", t, "=", w)
-

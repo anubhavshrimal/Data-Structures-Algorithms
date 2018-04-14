@@ -25,7 +25,7 @@ class Graph:
 
         sortList.insert(0, s)
 
-    def topologicalSort(self, s=None):
+    def topologicalSort(self):
         visited = {i: False for i in self.graph}
 
         sortList = []

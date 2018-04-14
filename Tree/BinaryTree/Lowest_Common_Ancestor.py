@@ -97,5 +97,3 @@ if lca is not None:
     print("LCA(4,10) = ", lca.key)
 else:
     print("Keys are not present")
-
-    # This code is contributed by Nikhil Kumar Singh(nickzuck_007)

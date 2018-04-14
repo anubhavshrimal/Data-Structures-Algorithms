@@ -1,6 +1,7 @@
 """Given an n x n matrix, where every row and column is sorted in increasing order.
 Given a number x, how to decide whether this x is in the matrix."""
 
+
 def search(mat, x):
     n = len(mat)
     i = 0

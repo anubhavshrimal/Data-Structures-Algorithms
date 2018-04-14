@@ -26,8 +26,8 @@ def get_min_depth(root):
         else:
             if node.left is not None:
                 queue.append((node.left, height + 1))
-        if node.right is not None:
-            queue.append((node.right, height + 1))
+            if node.right is not None:
+                queue.append((node.right, height + 1))
 
 
 if __name__ == '__main__':

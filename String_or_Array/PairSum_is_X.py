@@ -36,6 +36,7 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 """
 
+
 def find_pair_sorted(arr, x):
     # initialize variables to the start and end of the array
     l = 0

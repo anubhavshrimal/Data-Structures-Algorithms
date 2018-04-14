@@ -55,9 +55,9 @@ def findWords(words, boggle):
 
 if __name__ == '__main__':
     words = {"GEEKS", "FOR", "QUIZ", "GO", "SEEK"}
-    boggle = [['G','I','Z'],
-              ['U','E','K'],
-              ['Q','S','E']]
+    boggle = [['G', 'I', 'Z'],
+              ['U', 'E', 'K'],
+              ['Q', 'S', 'E']]
 
     found = findWords(words, boggle)
 

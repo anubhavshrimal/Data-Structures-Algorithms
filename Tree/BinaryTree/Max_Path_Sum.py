@@ -22,7 +22,7 @@ def max_sum_path_util(root):
     right_sum = max_sum_path_util(root.right)
 
     # if current node is one of the nodes in the path above for max
-    # it can either be along, or with left sub tree or right sub tree
+    # it can either be alone, or with left sub tree or right sub tree
     max_single = max(max(left_sum, right_sum) + root.data, root.data)
 
     # if the current root itself is considered as top node of the max path

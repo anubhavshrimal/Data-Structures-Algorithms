@@ -25,7 +25,7 @@ class Graph:
 
         return index
 
-    def dikstra(self, src):
+    def dijkstra(self, src):
         visited = {i: False for i in self.graph}
         dist = {i: float('inf') for i in self.graph}
         parent = {i: None for i in self.graph}
@@ -54,7 +54,7 @@ class Graph:
         if parent[v] is None:
             return
         self.printPath(parent, parent[v])
-        print(v,end=' ')
+        print(v, end=' ')
 
     def printSolution(self, dist, parent, src):
         print('{}\t{}\t{}'.format('Vertex', 'Distance', 'Path'))
@@ -63,7 +63,7 @@ class Graph:
             if i == src:
                 continue
             print('{} -> {}\t\t{}\t\t{}'.format(src, i, dist[i], src), end=' ')
-            self.printPath(parent,i)
+            self.printPath(parent, i)
             print()
 
 if __name__ == '__main__':
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     graph.addEdge(3, 5, 14)
     graph.addEdge(5, 4, 10)
 
-    parent, dist = graph.dikstra(0)
+    parent, dist = graph.dijkstra(0)
 
     graph.printSolution(dist, parent, 0)
 

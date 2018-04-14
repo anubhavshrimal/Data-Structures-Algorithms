@@ -40,7 +40,7 @@ class Graph:
         node = Vertex(key)
         self.vertices[key] = node
         self.numberOfVertices += 1
-        return  node
+        return node
 
     def addEdge(self, frm, to, weight=0):
         if frm not in self.vertices:

@@ -1,4 +1,4 @@
-#HackerRank problem Algorithms DP
+# HackerRank problem Algorithms DP
 
 
 def maxSubArray(a, size):

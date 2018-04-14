@@ -227,7 +227,7 @@ class MinHeap:
 """
 Algorithm:
 *) Split the array stream in 2 halves, min heap(upper array) and max heap (lower array)
-*) This was the min and max of the heaps will help you get the median fast.
+*) This way the min and max of the heaps will help you get the median fast.
 *) Note that the elements should be inserted in the heaps in such a way that the elements 
 in lowerMaxHeap are all smaller than all the elements in the upperMinHeap 
 (i.e., as if the arrays were sorted and then split into two heaps)

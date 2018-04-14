@@ -17,7 +17,7 @@ def next_greater(num):
         right_pattern = (num ^ left_pattern) >> (right_one + 1)
 
         # OR both the patterns
-        # Ex. res = 0 bin = 1001
+        # Ex. res = 9 bin = 1001
         res = left_pattern | right_pattern
 
     return res
