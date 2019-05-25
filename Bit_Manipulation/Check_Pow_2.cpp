@@ -1,5 +1,5 @@
 /*
-Check whether a given number n is a power of 2 or 0
+Check whether a given number n is a power of 2
 */
 
 #include <iostream>
@@ -7,6 +7,7 @@ Check whether a given number n is a power of 2 or 0
 using namespace std;
 
 bool check_pow_2(int num) {
+    // num is a power of 2 only if its binary representation has one bit as 1.
     if ((num & (num-1)) == 0)
     	return true;
     return false;
