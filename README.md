@@ -129,6 +129,7 @@ Contains implementation of some common questions and algorithms related to Mathe
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
 |-----------------------------------|:------------------:|:-----------------:|
+|Fine the number of trailing zeros in factorial of a number         |[py](Mathematics/Factorial_Trailing_Zeros.py)|[cpp](Mathematics/Factorial_Training_Zeros.cpp)|
 |Find the greatest common divisor of 2 numbers                      |[py](Mathematics/GCD.py)|[cpp](Mathematics/GCD.cpp)|
 |	print all prime factors of a given number                       |[py](Mathematics/Prime_factors.py)|[cpp](Mathematics/Prime_factors.cpp)|
 |	Sieve of Eratosthenes (find prime numbers up to n efficiently)  |[py](Mathematics/Sieve_of_Eratosthenes.py)|[cpp](Mathematics/Sieve_of_Eratosthenes.cpp)|
