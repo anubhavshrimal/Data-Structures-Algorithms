@@ -27,9 +27,10 @@ My implementation of some popular data structures and algorithms and interview q
 
 Contains some popular questions based on *bit manipulations*.
 
-| 			Topic/Question			|	Code File Name |
+| 			Topic/Question			|	Code in        |
 |-----------------------------------|------------------|
-|Check whether a given number n is a power of 2 or 0|[Check_Pow_2.py](Bit_Manipulation/Check_Pow_2.py)|
+|Check whether a given number n is a power of 2 or 0|[py](Bit_Manipulation/Check_Pow_2.py)|[cpp](Bit_Manipulation/Check_Pow_2.cpp)|
+
 |Count number of bits needed to be flipped to convert A to B|[Count_Bits_Flip_A_B.py](Bit_Manipulation/Count_Bits_Flip_A_B.py)|
 |Find the two non-repeating elements in an array of repeating elements|[Find_Non_Repeating.py](Bit_Manipulation/Find_Non_Repeating.py)|
 |Find the next greater and next smaller number with same number of set bits|[Next_Number.py](Bit_Manipulation/Next_Number.py)|
