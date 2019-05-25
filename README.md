@@ -27,8 +27,8 @@ My implementation of some popular data structures and algorithms and interview q
 
 Contains some popular questions based on *bit manipulations*.
 
-| 			Topic/Question			|	Code in        |
-|-----------------------------------|------------------|
+| 			Topic/Question			|	Code in        ||
+|-----------------------------------|------------------||
 |Check whether a given number n is a power of 2 or 0|[py](Bit_Manipulation/Check_Pow_2.py)|[cpp](Bit_Manipulation/Check_Pow_2.cpp)|
 
 |Count number of bits needed to be flipped to convert A to B|[Count_Bits_Flip_A_B.py](Bit_Manipulation/Count_Bits_Flip_A_B.py)|
