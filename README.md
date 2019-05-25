@@ -30,11 +30,11 @@ My implementation of some popular data structures and algorithms and interview q
 Contains some popular questions based on *bit manipulations*.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
-|Check whether a given number n is a power of 2 or 0                            |[py](Bit_Manipulation/Check_Pow_2.py)|         |[cpp](Bit_Manipulation/Check_Pow_2.cpp)|
-|Count number of bits needed to be flipped to convert A to B                    |[py](Bit_Manipulation/Count_Bits_Flip_A_B.py)| |[cpp](Bit_Manipulation/Count_Bits_Flip_A_B.cpp)|
-|Find the two non-repeating elements in an array of repeating elements          |[py](Bit_Manipulation/Find_Non_Repeating.py)|  |[cpp](Bit_Manipulation/Find_Non_Repeating.cpp)|
-|Find the next greater and next smaller number with same number of set bits     |[py](Bit_Manipulation/Next_Number.py)|         |[cpp](Bit_Manipulation/Next_Number.cpp)|
+|-----------------------------------|:------------------:|:-----------------:|
+|Check whether a given number n is a power of 2 or 0                            |[py](Bit_Manipulation/Check_Pow_2.py)         |[cpp](Bit_Manipulation/Check_Pow_2.cpp)|
+|Count number of bits needed to be flipped to convert A to B                    |[py](Bit_Manipulation/Count_Bits_Flip_A_B.py) |[cpp](Bit_Manipulation/Count_Bits_Flip_A_B.cpp)|
+|Find the two non-repeating elements in an array of repeating elements          |[py](Bit_Manipulation/Find_Non_Repeating.py)  |[cpp](Bit_Manipulation/Find_Non_Repeating.cpp)|
+|Find the next greater and next smaller number with same number of set bits     |[py](Bit_Manipulation/Next_Number.py)         |[cpp](Bit_Manipulation/Next_Number.cpp)|
 
 ------------------------------------------------------------------------------
 ### Dynamic Programming
@@ -42,7 +42,7 @@ Contains some popular questions based on *bit manipulations*.
 Contains some popular questions based on *dynamic programming approach*. 
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |	0-1 Knapsack Problem			                                                                                    |[py](DynamicProgramming/01_KnapsackProblem.py)| [cpp](DynamicProgramming/01_KnapsackProblem.cpp)|
 |Cutting Rod problem                                                                                                    |[py](DynamicProgramming/CuttingRod.py)| [cpp](DynamicProgramming/CuttingRod.cpp)|
 | minimum number of edits (operations) required to convert ‘str1’ into ‘str2’                                           |[py](DynamicProgramming/EditDistance.py)|[cpp](DynamicProgramming/EditDistance.cpp)|
@@ -61,7 +61,7 @@ Contains some popular questions based on *dynamic programming approach*.
 Contains some common algorithms and questions based on *Matrix*.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Given the Coordinates of King and Queen on a chessboard, check if queen threatens the king |[py](Matrix/CheckQueenThreatsKing.py)|[cpp](Matrix/CheckQueenThreatsKing.cpp)|
 |Search in a row wise and column wise sorted matrix                                         |[py](Matrix/SearchRowColumnSorted.py)|[cpp](Matrix/SearchRowColumnSorted.cpp)|
 |Given a 2D array, print it in spiral form                                                  |[py](Matrix/SpiralPrint.py)|[cpp](Matrix/SpiralPrint.cpp)|
@@ -72,7 +72,7 @@ Contains some common algorithms and questions based on *Matrix*.
 Contains implementation of Graph data structure and some common questions and algorithms related to it.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Find all possible words in a board of characters                                               |[py](Graph/Boggle.py)|[cpp](Graph/Boggle.cpp)|
 |	Breadth First Search Traversal                                                              |[py](Graph/BreadthFirstTraversal.py)|[cpp](Graph/BreadthFirstTraversal.cpp)|
 |	Depth First Search Traversal                                                                |[py](Graph/DepthFirstTraversal.py)|[cpp](Graph/DepthFirstTraversal.cpp)|
@@ -90,7 +90,7 @@ Contains implementation of Graph data structure and some common questions and al
 Contains implementation of Heap data structure and some common questions and algorithms related to it.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |	Heap Sort algorithm                                                                         |[py](Heaps/HeapSort.py)|[cpp](Heaps/HeapSort.cpp)|
 |   Max Heap implementation                                                                     |[py](Heaps/MaxHeap.py)|[cpp](Heaps/MaxHeap.cpp)|
 |   Min Heap implementation                                                                     |[py](Heaps/MinHeap.py)|[cpp](Heaps/MinHeap.cpp)|
@@ -104,7 +104,7 @@ Contains implementation of Linked List data structure and some common questions 
 ##### Singly Linked List
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Clone a linked list with next and random pointer                                               |[py](LinkedList/CloneRandomPointerList.py)|[cpp](LinkedList/CloneRandomPointerList.cpp)|
 |Given a linked list of line segments, remove middle points if any                              |[py](LinkedList/LineRemoveMiddlePoints.py)|[cpp](LinkedList/LineRemoveMiddlePoints.cpp)|
 |Construct a Maximum Sum Linked List out of two Sorted Linked Lists having some Common nodes.   |[py](LinkedList/MaxSumLinkedList.py)|[cpp](LinkedList/MaxSumLinkedList.cpp)|
@@ -128,7 +128,7 @@ Contains implementation of Linked List data structure and some common questions 
 Contains implementation of some common questions and algorithms related to Mathematics.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Find the greatest common divisor of 2 numbers                      |[py](Mathematics/GCD.py)|[cpp](Mathematics/GCD.cpp)|
 |	print all prime factors of a given number                       |[py](Mathematics/Prime_factors.py)|[cpp](Mathematics/Prime_factors.cpp)|
 |	Sieve of Eratosthenes (find prime numbers up to n efficiently)  |[py](Mathematics/Sieve_of_Eratosthenes.py)|[cpp](Mathematics/Sieve_of_Eratosthenes.cpp)|
@@ -139,7 +139,7 @@ Contains implementation of some common questions and algorithms related to Mathe
 Contains some miscellaneous questions and algorithms.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Given a dictionary, write a function to flatten it                             |[py](Misc/Flatten_Dictionary.py)|[cpp](Misc/Flatten_Dictionary.cpp)|
 
 ------------------------------------------------------------------------------
@@ -148,7 +148,7 @@ Contains some miscellaneous questions and algorithms.
 Contains some common questions and algorithms related to strings or 1-d arrays.
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Find the longest substring with k unique characters in a given string              |[py](String_or_Array/K_Unique_Substring.py)|[cpp](String_or_Array/K_Unique_Substring.cpp)|
 |Find a pattern in a string using KMP search algorithm                              |[py](String_or_Array/KMP_StringMatching.py)|[cpp](String_or_Array/KMP_StringMatching.cpp)|
 |Find the Kth smallest element in the array                                         |[py](String_or_Array/Kth_Smallest.py)|[cpp](String_or_Array/Kth_Smallest.cpp)|
@@ -161,7 +161,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 #### Searching
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Linear Search in an array          |[py](String_or_Array/Searching/Linear_Search.py)|[cpp](String_or_Array/Searching/Linear_Search.cpp)|
 |Binary Search in an array          |[py](String_or_Array/Searching/Binary_Search.py)|[cpp](String_or_Array/Searching/Binary_Search.cpp)|
 |Interpolation Search in an array   |[py](String_or_Array/Searching/Interpolation_Search.py)|[cpp](String_or_Array/Searching/Interpolation_Search.cpp)|
@@ -169,7 +169,7 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 #### Sorting
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Bubble sort Algorithm                                                              |[py](String_or_Array/Sorting/Bubble_Sort.py)|[cpp](String_or_Array/Sorting/Bubble_Sort.cpp)|
 |Counting sort Algorithm (non-comparision based sorting)                            |[py](String_or_Array/Sorting/Counting_Sort.py)|[cpp](String_or_Array/Sorting/Counting_Sort.cpp)|
 |Insertion sort Algorithm                                                           |[py](String_or_Array/Sorting/Insertion_Sort.py)|[cpp](String_or_Array/Sorting/Insertion_Sort.cpp)|
@@ -186,7 +186,7 @@ Contains implementation of Tree data structure and some common questions and alg
 ##### Binary Search Tree
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |	Binary Search Tree implementation			                                |[py](Tree/BinarySearchTree/BST.py)|[cpp](Tree/BinarySearchTree/BST.cpp)|
 |Check if a given array can represent Preorder Traversal of Binary Search Tree  |[py](Tree/BinarySearchTree/Check_Correct_Preorder.py)|[cpp](Tree/BinarySearchTree/Check_Correct_Preorder.cpp)|
 |Find the in-order ancestor of a given node in BST                              |[py](Tree/BinarySearchTree/InOrder_Ancestor.py)|[cpp](Tree/BinarySearchTree/InOrder_Ancestor.cpp)|
@@ -196,7 +196,7 @@ Contains implementation of Tree data structure and some common questions and alg
 ##### Binary Tree
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Print Nodes in Bottom View of Binary Tree                                      |[py](Tree/BinaryTree/Bottom_View.py)|[cpp](Tree/BinaryTree/Bottom_View.cpp)|
 |Check if a binary tree is height balanced                                      |[py](Tree/BinaryTree/Check_Balanced.py)|[cpp](Tree/BinaryTree/Check_Balanced.cpp)|
 |Check whether a binary tree is a full binary tree or not                       |[py](Tree/BinaryTree/Check_Full_BinaryTree.py)|[cpp](Tree/BinaryTree/Check_Full_BinaryTree.cpp)|
@@ -212,7 +212,7 @@ Contains implementation of Tree data structure and some common questions and alg
 ##### Trie
 
 | 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|------------------|-----------------|
+|-----------------------------------|:------------------:|:-----------------:|
 |Implementation of Trie data structure                                          |[py](Tree/Trie/Trie.py)|[cpp](Tree/Trie/Trie.cpp)|
 
 ------------------------------------------------------------------------------
