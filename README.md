@@ -14,6 +14,7 @@ My implementation of some popular data structures and algorithms and interview q
     * [Singly Linked List](#singly-linked-list)
 * [Mathematics](#mathematics)
 * [Matrix](#matrix)
+* [Misc](#misc)
 * [String or Array](#string-or-array)
     * [Searching](#searching)
     * [Sorting](#sorting)
@@ -54,17 +55,6 @@ Contains some popular questions based on *dynamic programming approach*.
 |Determine if there is a subset of the given set with sum equal to given sum                                            |[py](DynamicProgramming/SubsetSum.py)|[cpp](DynamicProgramming/SubsetSum.cpp)|
 |	Maximum Subarray Problem		                                                                                    |[py](DynamicProgramming/TheMaximumSubarray.py)|[cpp](DynamicProgramming/TheMaximumSubarray.cpp)|
 |Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps                         |[py](DynamicProgramming/WaysToCoverDistance.py)|[cpp](DynamicProgramming/WaysToCoverDistance.cpp)|
-
-------------------------------------------------------------------------------
-### Matrix
-
-Contains some common algorithms and questions based on *Matrix*.
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Given the Coordinates of King and Queen on a chessboard, check if queen threatens the king |[py](Matrix/CheckQueenThreatsKing.py)|[cpp](Matrix/CheckQueenThreatsKing.cpp)|
-|Search in a row wise and column wise sorted matrix                                         |[py](Matrix/SearchRowColumnSorted.py)|[cpp](Matrix/SearchRowColumnSorted.cpp)|
-|Given a 2D array, print it in spiral form                                                  |[py](Matrix/SpiralPrint.py)|[cpp](Matrix/SpiralPrint.cpp)|
 
 ------------------------------------------------------------------------------
 ### Graph
@@ -133,6 +123,17 @@ Contains implementation of some common questions and algorithms related to Mathe
 |Find the greatest common divisor of 2 numbers                      |[py](Mathematics/GCD.py)|[cpp](Mathematics/GCD.cpp)|
 |	print all prime factors of a given number                       |[py](Mathematics/Prime_factors.py)|[cpp](Mathematics/Prime_factors.cpp)|
 |	Sieve of Eratosthenes (find prime numbers up to n efficiently)  |[py](Mathematics/Sieve_of_Eratosthenes.py)|[cpp](Mathematics/Sieve_of_Eratosthenes.cpp)|
+
+------------------------------------------------------------------------------
+### Matrix
+
+Contains some common algorithms and questions based on *Matrix*.
+
+| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
+|-----------------------------------|:------------------:|:-----------------:|
+|Given the Coordinates of King and Queen on a chessboard, check if queen threatens the king |[py](Matrix/CheckQueenThreatsKing.py)|[cpp](Matrix/CheckQueenThreatsKing.cpp)|
+|Search in a row wise and column wise sorted matrix                                         |[py](Matrix/SearchRowColumnSorted.py)|[cpp](Matrix/SearchRowColumnSorted.cpp)|
+|Given a 2D array, print it in spiral form                                                  |[py](Matrix/SpiralPrint.py)|[cpp](Matrix/SpiralPrint.cpp)|
 
 ------------------------------------------------------------------------------
 ### Misc
