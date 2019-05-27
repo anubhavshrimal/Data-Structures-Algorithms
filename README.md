@@ -2,8 +2,6 @@
 
 My implementation of some popular data structures and algorithms and interview questions relating to them in Python 3 and C++
 
-**Note: Code in C++ is a work in progress, All python files mentioned in the README.md are present in the repository.**
-
 ## Index:
 
 * [Bit Manipulation](#bit-manipulation)
@@ -109,7 +107,7 @@ Contains implementation of Linked List data structure and some common questions 
 |	Reverse alternate sub list of K nodes each                                                  |[py](LinkedList/Reverse_Alt_K_Nodes.py)|[-](LinkedList/Reverse_Alt_K_Nodes.cpp)|
 |	Reverse a linked list			                                                            |[py](LinkedList/ReverseSLL.py)|[-](LinkedList/ReverseSLL.cpp)|
 |	Bring even valued nodes to the front                                                        |[py](LinkedList/SegregateEvenOdd.py)|[-](LinkedList/SegregateEvenOdd.cpp)|
-|	Implementation of Singly Linked List                                                        |[py](LinkedList/SinglyLinkedList.py)|[-](LinkedList/SinglyLinkedList.cpp)|
+|	Implementation of Singly Linked List                                                        |[py](LinkedList/SinglyLinkedList.py)|[cpp](LinkedList/SinglyLinkedList.cpp)|
 |Skip M nodes and then delete N nodes alternately                                               |[py](LinkedList/SkipMDeleteN.py)|[-](LinkedList/SkipMDeleteN.cpp)|
 
 ------------------------------------------------------------------------------
