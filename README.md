@@ -98,7 +98,7 @@ Contains implementation of Linked List data structure and some common questions 
 |Construct a Maximum Sum Linked List out of two Sorted Linked Lists having some Common nodes.   |[py](LinkedList/MaxSumLinkedList.py)|[-](LinkedList/MaxSumLinkedList.cpp)|
 |Merge a linked list into another linked list at alternate positions                            |[py](LinkedList/MergeAlt.py)|[-](LinkedList/MergeAlt.cpp)|
 |	Perform Merge Sort                                                                          |[py](LinkedList/MergeSort.py)|[-](LinkedList/MergeSort.cpp)|
-|	Find Middle Node                                                                            |[py](LinkedList/MiddleNode.py)|[-](LinkedList/MiddleNode.cpp)|
+|	Find Middle Node                                                                            |[py](LinkedList/MiddleNode.py)|[cpp](LinkedList/MiddleNode.cpp)|
 |Point to next higher value node in a linked list with an arbitrary pointer                     |[py](LinkedList/NextHigerValueNode.py)|[-](LinkedList/NextHigerValueNode.cpp)|
 |	Find if linked list contains any cycle			                                            |[py](LinkedList/NullOrCycle.py)|[-](LinkedList/NullOrCycle.cpp)|
 |To select a random node in a singly linked list                                                |[py](LinkedList/Random_Node.py)|[-](LinkedList/Random_Node.cpp)|
