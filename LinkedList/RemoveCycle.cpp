@@ -77,8 +77,8 @@ bool remove_cycle(LinkedList* ll){
 
 int main() {
     LinkedList* ll = new LinkedList();
-
-    // Insert at the beginning 3, 2, 1
+    
+    // Create Linked list
     ll->insert_at_beg(6);
     ll->insert_at_beg(5);
     ll->insert_at_beg(4);
