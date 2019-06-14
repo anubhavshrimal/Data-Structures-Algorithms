@@ -102,7 +102,7 @@ Contains implementation of Linked List data structure and some common questions 
 |Point to next higher value node in a linked list with an arbitrary pointer                     |[py](LinkedList/NextHigerValueNode.py)|[-](LinkedList/NextHigerValueNode.cpp)|
 |	Find if linked list contains any cycle			                                            |[py](LinkedList/NullOrCycle.py)|[-](LinkedList/NullOrCycle.cpp)|
 |To select a random node in a singly linked list                                                |[py](LinkedList/Random_Node.py)|[-](LinkedList/Random_Node.cpp)|
-|	Find and remove cycle if any                                                                |[py](LinkedList/RemoveCycle.py)|[-](LinkedList/RemoveCycle.cpp)|
+|	Find and remove cycle if any                                                                |[py](LinkedList/RemoveCycle.py)|[cpp](LinkedList/RemoveCycle.cpp)|
 |	Reverse sub list of K nodes each                                                            |[py](LinkedList/ReverseKNodes.py)|[-](LinkedList/ReverseKNodes.cpp)|
 |	Reverse alternate sub list of K nodes each                                                  |[py](LinkedList/Reverse_Alt_K_Nodes.py)|[-](LinkedList/Reverse_Alt_K_Nodes.cpp)|
 |	Reverse a linked list			                                                            |[py](LinkedList/ReverseSLL.py)|[-](LinkedList/ReverseSLL.cpp)|
