@@ -108,7 +108,7 @@ Contains implementation of Linked List data structure and some common questions 
 |	Reverse a linked list			                                                            |[py](LinkedList/ReverseSLL.py)|[cpp](LinkedList/ReverseSLL.cpp)|
 |	Bring even valued nodes to the front                                                        |[py](LinkedList/SegregateEvenOdd.py)|[-](LinkedList/SegregateEvenOdd.cpp)|
 |	Implementation of Singly Linked List                                                        |[py](LinkedList/SinglyLinkedList.py)|[cpp](LinkedList/SinglyLinkedList.cpp)|
-|Skip M nodes and then delete N nodes alternately                                               |[py](LinkedList/SkipMDeleteN.py)|[-](LinkedList/SkipMDeleteN.cpp)|
+|Skip M nodes and then delete N nodes alternately                                               |[py](LinkedList/SkipMDeleteN.py)|[cpp](LinkedList/SkipMDeleteN.cpp)|
 
 ------------------------------------------------------------------------------
 ### Mathematics
