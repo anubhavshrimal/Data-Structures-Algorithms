@@ -4,22 +4,25 @@ My implementation of some popular data structures and algorithms and interview q
 
 ## Index:
 
-* [Bit Manipulation](#bit-manipulation)
-* [Dynamic Programming](#dynamic-programming)
-* [Graph](#graph)
-* [Heaps](#heaps)
-* [Linked List](#linked-list)
-    * [Singly Linked List](#singly-linked-list)
-* [Mathematics](#mathematics)
-* [Matrix](#matrix)
-* [Misc](#misc)
-* [String or Array](#string-or-array)
-    * [Searching](#searching)
-    * [Sorting](#sorting)
-* [Tree](#tree)
-    * [Binary Search Tree](#binary-search-tree)
-    * [Binary Tree](#binary-tree)
-    * [Trie](#trie)
+- [Data Structures and Algorithms](#Data-Structures-and-Algorithms)
+  - [Index:](#Index)
+  - [Content:](#Content)
+    - [Bit Manipulation](#Bit-Manipulation)
+    - [Dynamic Programming](#Dynamic-Programming)
+    - [Graph](#Graph)
+    - [Heaps](#Heaps)
+    - [Linked List](#Linked-List)
+        - [Singly Linked List](#Singly-Linked-List)
+    - [Mathematics](#Mathematics)
+    - [Matrix](#Matrix)
+    - [Misc](#Misc)
+    - [String or Array](#String-or-Array)
+      - [Searching](#Searching)
+      - [Sorting](#Sorting)
+    - [Tree](#Tree)
+        - [Binary Search Tree](#Binary-Search-Tree)
+        - [Binary Tree](#Binary-Tree)
+        - [Trie](#Trie)
 
 ------------------------------------------------------------------------------
 ## Content:
@@ -50,6 +53,7 @@ Contains some popular questions based on *dynamic programming approach*.
 |Length of the longest subsequence in an array such that all elements of the subsequence are sorted in increasing order |[py](DynamicProgramming/LongestIncreasingSubsequence.py)|[-](DynamicProgramming/LongestIncreasingSubsequence.cpp)|
 |Find minimum cost path in a matrix from (0,0) to given point (m,n)                                                     |[py](DynamicProgramming/MinCostPath.py)| [-](DynamicProgramming/MinCostPath.cpp)|
 |Partition a set into two subsets such that the difference of subset sums is minimum                                    |[py](DynamicProgramming/MinimumPartition.py)|[-](DynamicProgramming/MinimumPartition.cpp)|
+|Minimum number of umbrellas of m different sizes required to accomodate N people                                       |[-](DynamicProgramming/MinUmbrellaNeeded.py)|[cpp](DynamicProgramming/MinUmbrellaNeeded.cpp)|
 |Determine if there is a subset of the given set with sum equal to given sum                                            |[py](DynamicProgramming/SubsetSum.py)|[-](DynamicProgramming/SubsetSum.cpp)|
 |	Maximum Subarray Problem		                                                                                    |[py](DynamicProgramming/TheMaximumSubarray.py)|[-](DynamicProgramming/TheMaximumSubarray.cpp)|
 |Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps                         |[py](DynamicProgramming/WaysToCoverDistance.py)|[-](DynamicProgramming/WaysToCoverDistance.cpp)|
