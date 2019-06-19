@@ -14,18 +14,18 @@ using namespace std;
 
 int min_umbrellas_needed_util(int n, vector<int> umbrellas, vector<int> dp, int count){
     // if dp has already stored the solution for n people, return
-    if(n == 0 or dp[n] != 0) return dp[n];
+    if(n == 0 || dp[n] != 0) return dp[n];
     
     int min_count = INT_MAX, curr_count;
     
     // Iterate over all the umbrella sizes
     for(auto i = umbrellas.begin(); i != umbrellas.end(); i++){
         
-        // if umbrella can be accomodated fully 
+        // if umbrella can be accommodated fully 
         if(n - *i > 0)
             curr_count = min_umbrellas_needed_util(n-*i, umbrellas, dp, count+1);
         
-        // if all people are accomodated
+        // if all people are accommodated
         else if(n - *i == 0)
             curr_count = count+1;
 
