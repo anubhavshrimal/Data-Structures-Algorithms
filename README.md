@@ -35,8 +35,8 @@ Contains some popular questions based on *bit manipulations*.
 |-----------------------------------|:------------------:|:-----------------:|
 |Check whether a given number n is a power of 2 or 0                            |[py](Bit_Manipulation/Check_Pow_2.py)         |[cpp](Bit_Manipulation/Check_Pow_2.cpp)|
 |Count number of bits needed to be flipped to convert A to B                    |[py](Bit_Manipulation/Count_Bits_Flip_A_B.py) |[cpp](Bit_Manipulation/Count_Bits_Flip_A_B.cpp)|
-|Find the two non-repeating elements in an array of repeating elements          |[py](Bit_Manipulation/Find_Non_Repeating.py)  |[-](Bit_Manipulation/Find_Non_Repeating.cpp)|
-|Find the next greater and next smaller number with same number of set bits     |[py](Bit_Manipulation/Next_Number.py)         |[-](Bit_Manipulation/Next_Number.cpp)|
+|Find the two non-repeating elements in an array of repeating elements          |[py](Bit_Manipulation/Find_Non_Repeating.py)  |[cpp](Bit_Manipulation/Find_Non_Repeating.cpp)|
+|Find the next greater and next smaller number with same number of set bits     |[py](Bit_Manipulation/Next_Number.py)         |[cpp](Bit_Manipulation/Next_Number.cpp)|
 
 ------------------------------------------------------------------------------
 ### Dynamic Programming
